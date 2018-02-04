@@ -1,0 +1,90 @@
+body {
+  background-color: beige
+}
+.wrapper {
+    width: 75%;
+    margin: 0 auto;
+    background-color:white;
+    padding: 50px 50px 58.2% 50px;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.4);
+}
+.logo {
+    padding-bottom: 20px;
+}
+.header {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgb(83, 83, 83);
+    color: rgb(192, 192, 192);
+    height: 20px;
+}
+
+.topmenu li:last-child {margin-right: 0;}
+
+.topmenu li {
+    float: left;
+    margin-left: 10px;
+    margin-right: 80px;
+}
+.topmenu a {
+    text-decoration: none;
+    color: rgb(214, 214, 214);
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar {
+    float: left;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.leftbar {
+    margin: 0px;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid rgb(163, 163, 163);
+}
+
+.leftbar a {
+    text-decoration: none;
+    color: rgb(112, 112, 112)
+}
+
+.content {
+    float: right;
+    padding: 80px;
+    border: 1px solid rgb(163, 163, 163);
+    margin-top: 10px;
+}
+
+.text {
+    float: right;
+    margin: 40px 10px;
+}
+
+.footer {
+    position: absolute; 
+    bottom: 0;
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 20px;
+    background-color: rgb(173, 173, 173);
+    color: rgb(192, 192, 192);
+}
+
+.bottommenu li {
+    float: left;
+    margin-left: 10px;
+    margin-right: 70px;
+}
+
+.bottommenu li:last-child {margin-left: 160px;}
+
+.bottommenu a {
+    text-decoration: none;
+    color: rgb(82, 82, 82);
+}
