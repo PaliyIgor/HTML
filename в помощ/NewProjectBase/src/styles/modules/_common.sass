@@ -1,0 +1,119 @@
+*
+  -moz-box-sizing: border-box
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+  &::before, &::after
+    -moz-box-sizing: border-box
+    -webkit-box-sizing: border-box
+    box-sizing: border-box
+ul
+  margin: 0
+  padding: 0
+  list-style: none
+html
+  font-family: $Raleway
+  font-weight: $regular
+body
+  width: 100%
+  max-width: 2560px
+  min-width: 320px
+  margin-right: auto
+  margin-left: auto
+.visually-hidden
+  position: absolute
+  clip: rect(0 0 0 0)
+  width: 1px
+  height: 1px
+  margin: -1px
+h1, h2, h3, h4, h5, h6
+  // color: #fff
+  // text-align: center
+  // font-family: $Proxima300
+
+
+.logo
+  font-family: $Raleway
+  color: transparent
+  font-size: 0
+.main-nav
+  display: flex
+  flex-direction: row 
+  a
+    margin: 0 20px
+    color: #262626
+    font-size: 16px
+    line-height: 24px
+    text-decoration: none
+    transition: all 0.5s
+    border-top: 3px solid transparent
+    padding-top: 10px
+    &:hover
+      border-top: 3px solid #ff6033
+.active
+  border-top: 3px solid #ff6033 !important
+
+.main-header
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-items: flex-start
+  max-width: 1170px
+  margin: 0 auto
+  padding: 57px 0 0
+
+.screen1
+  background-image: url('../img/main-page-bckg.jpg') 
+  background-size: cover
+  height: 100vh
+  min-height: 600px
+
+.wrapper
+  width: 1170px
+  margin: 0 auto
+.info
+  width: 342px
+  margin-top: 263px
+  .info__title
+    font-size: 60px
+    line-height: 25px
+  .info__text
+    font-size: 17px
+    line-height: 27px
+  .info__link
+    width: 200px
+    height: 55px
+    background-color: #ff6033
+    color: #ffffff
+    display: flex
+    align-items: center
+    justify-content: center
+    text-transform: uppercase
+    text-decoration: none
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,1)
+    transition: all 0.5s
+    &:hover
+      box-shadow: 0px 2px 5px 0px transparent
+
+
+.scroll-container
+  width: 100%
+  display: flex
+  flex-direction: row
+  justify-content: center
+  position: absolute
+  bottom: 70px
+  .scroll
+
+
+
+
+
+
+
+
+
+
+
+
+
+
