@@ -12,24 +12,20 @@ body {
 }
 
 .page1 {
-    background-image: url("../img/1page-bckg.jpg");
+    background: url(../img/1page-bckg_1.jpg) top center no-repeat;
     background-size: cover;
-    height: 844px;
+    height: 100vh;
     min-height: 600px;
 }
 
 .wrapper1 {
-    width: 1098px;
-    margin: 0 164px 0 165px; 
+    margin: 0 12%; 
 }
 
 .header1 {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
     font-family: "Raleway";
-    max-width: 1171px;
     padding-top: 50px;
 }
 
@@ -41,7 +37,6 @@ body {
 
 .nav1 {
     margin-top: 19px;
-    margin-right: 136px;
 }
 
 .nav1 a {
@@ -70,8 +65,7 @@ body {
 .info1 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin: 258px 0 0 0; 
+    margin-top: 258px; 
 }
 
 .info1 .title1 {
@@ -115,7 +109,7 @@ body {
     justify-content: center;
     align-items: flex-end;
     position: absolute;
-    bottom: 115px;
+    bottom: 69px;
 }
 
 /* Вторая страница */
@@ -160,17 +154,18 @@ body {
 
 .page3 {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: #70bfff;
     height: 790px;
 }
 
 .sidebar3 {
     height: 790px;
-    width: 35%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 10%;
+    margin-left: 12%;
 }
 
 .sidebutton3 {
@@ -270,7 +265,7 @@ body {
 .maininfo3 {
     height: 530px;
     width: 600px;
-    margin: 80px 66px 0 130px;
+    margin-bottom: 85px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -377,14 +372,13 @@ body {
 
 .page5 {
     font-family: "Raleway";
-    background-image: url("../img/5.jpg");
+    background: url("../img/5.jpg") top center no-repeat;
     height: 500px;
     background-size: contain;
-    background-repeat: no-repeat;
 }
 
 .info5 {
-    padding: 145px 0 0 164px;
+    padding: 145px 0 0 11%;
 }
 
 .info5 h1 {
@@ -402,7 +396,7 @@ body {
 
 .subscribe5 {
     display: flex;
-    margin-left: 165px;
+    margin-left: 10.9%;
 }
 
 .email5 {
@@ -547,9 +541,8 @@ body {
 
 .wrapper7 {
     height: 866px;
-    background-image: url("../img/7_1.jpg");
-    background-size: auto;
-    background-repeat: no-repeat;
+    background: url("../img/7_1.jpg") top center no-repeat;
+    background-size: cover;
 
 }
 
@@ -578,6 +571,7 @@ body {
 
 .maininfo7 {
     display: flex;
+    justify-content: center;
     font-family: "Raleway";
 }
 
@@ -587,7 +581,6 @@ body {
     flex-direction: column;
     font-size: 15px;
     color: #ffffff;
-    margin-left: 11%;
 }
 
 .info7 {
