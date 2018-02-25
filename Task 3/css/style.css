@@ -12,14 +12,15 @@ body {
 }
 
 .page1 {
-    background: url(../img/1page-bckg_1.jpg) top center no-repeat;
+    background: url(../img/1page-bckg.jpg) top center no-repeat;
     background-size: cover;
     height: 100vh;
     min-height: 600px;
 }
 
 .wrapper1 {
-    margin: 0 12%; 
+    margin: 0 auto;
+    width: 80%;
 }
 
 .header1 {
@@ -121,8 +122,10 @@ body {
 
 .content2 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
+    width: 80%;
 }
 
 .img2 {
@@ -131,7 +134,6 @@ body {
 
 .info2 {
     font-family: "Raleway";
-    margin: 0 50px 0;
     max-width: 513px;
 }
 
@@ -153,11 +155,16 @@ body {
 
 
 .page3 {
+    background-color: #70bfff;
+    height: 790px;
+}
+
+.wrapper3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #70bfff;
-    height: 790px;
+    margin: 0 auto;
+    width: 80%;
 }
 
 .sidebar3 {
@@ -165,7 +172,6 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 12%;
 }
 
 .sidebutton3 {
@@ -269,7 +275,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-image: url("../img/tamato.png");
+    background: url("../img/tamato.png") right;
     background-repeat: no-repeat;
 }
 
@@ -280,6 +286,7 @@ body {
     font-weight: 900;
     width: 600px;
     color: #ffffff;
+    text-align: right;
 }
 
 /* Четвертая страница */
@@ -288,6 +295,11 @@ body {
     background-color: #ffe92f;
     height: 1536px;
 }
+
+.wrapper4 {
+    margin: 0 auto;
+    width: 80%;
+} 
 
 .header4 {
     font-family: "Raleway";
@@ -311,6 +323,7 @@ body {
     line-height: 1.5;
     padding-top: 30px;
 }
+
 
 .image4_1 {
     display: flex;
@@ -377,8 +390,13 @@ body {
     background-size: contain;
 }
 
+.wrapper5 {
+    margin: 0 auto;
+    width: 80%;
+}
+
 .info5 {
-    padding: 145px 0 0 11%;
+    padding-top: 145px;
 }
 
 .info5 h1 {
@@ -396,7 +414,6 @@ body {
 
 .subscribe5 {
     display: flex;
-    margin-left: 10.9%;
 }
 
 .email5 {
@@ -434,6 +451,11 @@ body {
     font-family: "Raleway";
 }
 
+.wrapper6 {
+    margin: 0 auto;
+    width: 80%;
+}
+
 .header6 {
     display: flex;
     align-items: center;
@@ -458,12 +480,13 @@ body {
 
 .maininfo6 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 .info6 {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 60%, rgb(0, 0, 0) 100%), url("../img/6_1.jpg");
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 60%, rgb(0, 0, 0) 100%), url("../img/6_1.jpg") center center no-repeat;
+    background-size: cover;
     box-shadow: 0px 4px 10px 0px #000000;
     width: 370px;
     height: 310px;
@@ -540,10 +563,14 @@ body {
 }
 
 .wrapper7 {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.container7 {
     height: 866px;
     background: url("../img/7_1.jpg") top center no-repeat;
     background-size: cover;
-
 }
 
 .header7 {
@@ -571,7 +598,7 @@ body {
 
 .maininfo7 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     font-family: "Raleway";
 }
 
@@ -615,10 +642,8 @@ body {
 
 .rightbar7 {
     display: flex;
-    align-items: inherit;
     flex-direction: column;
-    margin-left: 9.4%;
-}
+    margin: 0 23% 0 14%;}
 
 .text7 {
     margin-bottom: 15px;
