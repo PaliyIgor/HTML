@@ -1,0 +1,73 @@
+body {
+    max-width: 2560px;
+    min-width: 240px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 97px;
+    background-color: #373c3f;
+}
+
+.nav {
+    margin-left: 26px;
+}
+
+.nav a {
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.free_PSD {
+    background: url("../img/Free PSD.jpg") no-repeat;
+    background-size: cover;
+    height: 91vh;
+}
+
+.robin_hood {
+    background: url("../img/Robin Hood.jpg") no-repeat;
+    background-size: cover;
+    height: 33vh;
+}
+
+.three_picture {
+    background: url("../img/Arow.jpg") no-repeat,
+                url("../img/Bridge.jpg") no-repeat,
+                url("../img/Girl.jpg") no-repeat;
+    height: 40vh;
+    background-position: 0px 0px, 423px 0px, 842px 0px;
+    background-size: contain;
+}
+
+.main_text {
+    background-color: #ebebeb;
+    padding: 54px 6.5% 100px 6.5%;
+}
+
+.title {
+    font-size: 30px;
+    color: #088ca5;
+    margin-bottom: 30px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    color: #515151;
+    line-height: 1.5;
+}
+
+.text1, .text2 {
+    max-width: 42%;
+}
+
+.text1 p, .text2 p {
+    padding-bottom: 45px;
+}
